@@ -11,7 +11,9 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use(routes);
 // app.use('/api', api);
+
 app.use(express.static('public'));
+
 
 // GET route for landing page                             
 app.get('/', (req, res) =>
