@@ -1,0 +1,31 @@
+{
+  "name": "e-commerce-site",
+  "version": "1.0.0",
+  "description": "E-Commerce Site",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node seeds/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jroller33/E-Commerce-Site.git"
+  },
+  "author": "John Roller",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jroller33/E-Commerce-Site/issues"
+  },
+  "homepage": "https://github.com/jroller33/E-Commerce-Site#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
