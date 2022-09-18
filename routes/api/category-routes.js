@@ -15,7 +15,6 @@ router.get('/', async (req, res) => {             //  DONE
   }
 });
 
-
 router.get('/:id', async (req, res) => {          // DONE
   // find one category by its 'id' value and include its products
   try {
