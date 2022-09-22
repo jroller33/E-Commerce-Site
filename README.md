@@ -16,10 +16,10 @@ DELETE /api/products
 ✅ PUT /api/categories
 DELETE /api/categories
 
-GET /api/tags
-GET /api/tags/:id
-POST /api/tags
-PUT /api/tags
+✅ GET /api/tags
+✅ GET /api/tags/:id
+✅ POST /api/tags
+✅ PUT /api/tags
 DELETE /api/tags
 
 
