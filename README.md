@@ -12,7 +12,7 @@ This is the backend for an e-commerce site. It has a node.js server, express.js 
 
 ## Usage
 1. Clone the repo: https://github.com/jroller33/E-Commerce-Site.git
-2. Create a .env file in the main directory,, put your mysql credentials inside it in this format:
+2. Create a .env file in the main directory, and put your mysql credentials inside it in this format:
 ```
 DB_NAME='ecommerce_db'
 DB_USER='username'
@@ -25,7 +25,7 @@ DB_PASSWORD='password'
     - node: `npm run seed`   
     - node: `node server.js`
 4. Server should be listening on http://localhost:3001/
-5. Open [Insomnia](https://insomnia.rest/) (or download, install it)
+5. Open [Insomnia](https://insomnia.rest/) (or download and install it)
 6. Test the following API Routes:
     
     - GET /api/products
