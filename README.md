@@ -25,8 +25,7 @@ DB_PASSWORD='password'
     - node: `npm run seed`   
     - node: `node server.js`
 4. Server should be listening on http://localhost:3001/
-5. Open [Insomnia](https://insomnia.rest/) (or download and install it)
-6. Test the following API Routes:
+5. Test the following API Routes in [Insomnia](https://insomnia.rest/):
     
     - GET /api/products
     - GET /api/products/:id
